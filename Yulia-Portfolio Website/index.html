@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yulia - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><defs><linearGradient id=%22g%22 x1=%220%%22 y1=%220%%22 x2=%22100%%22 y2=%22100%%22><stop offset=%220%%22 stop-color=%22%234D6CFF%22/><stop offset=%2235%%22 stop-color=%22%23A75FFF%22/><stop offset=%2265%%22 stop-color=%22%23F560FF%22/><stop offset=%22100%%22 stop-color=%22%23FF9B63%22/></linearGradient></defs><rect width=%22100%22 height=%22100%22 rx=%2215%22 fill=%22%230F101C%22 /><text x=%2250%%22 y=%2255%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2280%22 font-weight=%22bold%22 font-family=%22sans-serif%22 fill=%22url(%23g)%22>Y</text></svg>">
+</head>
+<body>
+    <div class="background-bubbles">
+        <div class="bubble b1"></div> <div class="bubble b2"></div> <div class="bubble b3"></div>
+        <div class="bubble b4"></div> <div class="bubble b5"></div> <div class="bubble b6"></div>
+        <div class="bubble b7"></div>
+    </div>
+
+    <header id="main-header">
+        <div class="container header-container">
+            <nav>
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#connect" class="nav-link">Connect</a>
+            </nav>
+            <a href="resume/Yulia Isaeva Resume 2025.pdf" target="_blank" rel="noopener noreferrer" class="resume-button animate-pop-in">
+                <i class="fas fa-file-arrow-down"></i> Resume
+            </a>
+            <button id="mobile-menu-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+         <div class="nav-links-mobile"></div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container hero-content">
+                <h1 class="gradient-text animate-fade-in-up">Hello, I'm Yulia</h1>
+                <p class="hero-subtitle animate-fade-in" style="animation-delay: 0.2s;">
+                    A lifelong learner powered by curiosity and coffee.
+                </p>
+                <a href="#connect" class="cta-button animate-fade-in" style="animation-delay: 0.4s;">Let's Connect</a>
+            </div>
+            <a href="#about" class="scroll-down-arrow" aria-label="Scroll down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container observe-me">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-layout-grid">
+                    <div class="about-main-content">
+                        <div class="education-highlight border-highlight-on-hover glass-enhanced">
+                            <div class="education-icon"> <i class="fas fa-graduation-cap"></i> </div>
+                            <div class="education-details">
+                                <h4>Education</h4>
+                                <p>Bachelor of Mechatronics Engineering</p>
+                                <p class="education-uni">Ontario Tech University</p>
+                            </div>
+                        </div>
+                        <div class="about-bio-brief">
+                            <p>I live for "aha!" moments and late-night deep dives into tech rabbit holes. Whether it’s quantum computing or the perfect 3D-printed part, I’m here to build, learn, and geek out over everything.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-passions">
+                        <h3>Passions & Interests</h3>
+                        <div class="passions-grid">
+                            <div class="passion-item glass-enhanced observe-me-child">
+                                <i class="fas fa-mug-hot"></i>
+                                <span>Artisan Coffee</span>
+                            </div>
+                            <div class="passion-item glass-enhanced observe-me-child" style="transition-delay: 0.1s;">
+                                <i class="fas fa-person-swimming"></i> 
+                                <span>Swimming</span> 
+                            </div>
+                             <div class="passion-item glass-enhanced observe-me-child" style="transition-delay: 0.2s;">
+                                <i class="fas fa-book-open-reader"></i>
+                                <span>Fantasy Novels</span>
+                            </div>
+                            <div class="passion-item glass-enhanced observe-me-child" style="transition-delay: 0.3s;">
+                                <i class="fas fa-gamepad"></i> 
+                                <span>Video Games</span>
+                            </div>
+                            <div class="passion-item glass-enhanced observe-me-child" style="transition-delay: 0.4s;">
+                                <i class="fas fa-plane-departure"></i>
+                                <span>Exploring Cities</span>
+                            </div>
+                             <div class="passion-item glass-enhanced observe-me-child" style="transition-delay: 0.5s;">
+                                <i class="fas fa-seedling"></i>
+                                <span>Gardening</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="content-section">
+            <div class="container observe-me">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="timeline">
+
+                    <div class="timeline-item left observe-me-child">
+                        <div class="timeline-content glass-enhanced">
+                            <span class="timeline-date">2024 - Present</span>
+                            <h3>Product Engineering Technician</h3>
+                            <p class="timeline-company">Krug - Kitchener, ON</p>
+                            <p class="timeline-desc">Optimizing CAD designs and manufacturing processes for enhanced product performance.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item right observe-me-child">
+                         <div class="timeline-content glass-enhanced">
+                            <span class="timeline-date">2021</span>
+                            <h3>AMI Engineering Intern</h3>
+                            <p class="timeline-company">BELCO - Hamilton, Bermuda</p>
+                            <p class="timeline-desc">Improving metering systems, troubleshooting connectivity, and streamlining SQL reporting for operational efficiency.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <div class="container observe-me">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-card glass-enhanced observe-me-child">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h3 class="skill-name">Mechanical Engineering</h3>
+                        <p class="skill-desc">SolidWorks, Ansys Fluent, Ansys Workbench, Matlab, B-Solid</p>
+                    </div>
+                    <div class="skill-card glass-enhanced observe-me-child">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
+                        <h3 class="skill-name">Data Engineering</h3>
+                        <p class="skill-desc">SQL, ETL Pipelines, Data Warehousing, Apache Spark, Airflow, Snowflake</p>
+                    </div>
+                    <div class="skill-card glass-enhanced observe-me-child">
+                        <div class="skill-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                        <h3 class="skill-name">Data Analytics</h3>
+                        <p class="skill-desc">Power BI, Google Analytics, Google BigQuery, SAS</p>
+                    </div>
+                     <div class="skill-card glass-enhanced observe-me-child">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3 class="skill-name">Languages</h3>
+                        <p class="skill-desc">Python, R, PostgreSQL, MySQL, C++, Matlab, Bash, HTML, JS, CSS, TensorFlow, Node.js</p>
+                    </div>
+                    <div class="skill-card glass-enhanced observe-me-child">
+                        <div class="skill-icon"><i class="fas fa-cloud-arrow-up"></i></div>
+                        <h3 class="skill-name">AI & Cloud</h3>
+                        <p class="skill-desc"> GCP, Git, Gemini, ChatGPT, Claude, Google AI Studio</p>
+                    </div>
+                    
+                     <div class="skill-card glass-enhanced observe-me-child">
+                        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                        <h3 class="skill-name">Tools</h3>
+                        <p class="skill-desc">Excel, Word, Jupyter Notebooks, Slack, Microsoft Teams,Google Drive, Discord, OBS </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section id="projects" class="content-section">
+            <div class="container observe-me">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                     <div class="project-card project-card-border-hover observe-me-child">
+                        <img src="images/Project_1.gif" alt="Project 1" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">CAPSTONE - Design & Optimization of an eVTOL Propulsion System</h3>
+                            <p class="project-desc">Designed and validated five rotor blade configurations using CFD and 3D modeling; tested 100+ airfoil candidates and applied Y+ boundary layer configuration to improve thrust, efficiency, and airflow accuracy in ANSYS Fluent.</p>
+                            <div class="project-tags">
+                                <span>ANSYS Fluent</span><span>ANSYS Workbench</span><span>SolidWorks</span><span>Matlab</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Yulia751/Capstone-2024" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card project-card-border-hover observe-me-child">
+                        <img src="images/Project_2.jpg" alt="Project 2" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Autonomous Robotics Development with ROS</h3>
+                            <p class="project-desc">Developed Python-based ROS nodes for lane detection and obstacle avoidance, configured ROS in a Linux environment, evaluated 10+ packages for compatibility, and implemented communication protocols to enhance data exchange and autonomous system performance..</p>
+                             <div class="project-tags">
+                                <span>Python</span><span>Linux</span><span>Ubuntu</span><span>ROS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Yulia751/-MB-TurtleBot" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card project-card-border-hover observe-me-child">
+                        <img src="images/Project_3.png" alt="Project 3" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Motorcycle Safety Adaptive System </h3>
+                            <p class="project-desc">Developed an adaptive safety system integrating real-time vehicle detection, speed control, and external LED warnings to enhance motorcycle safety. Using an RTOS, the system achieved a reaction time of under 300ms.</p>
+                              <div class="project-tags">
+                                 <span>RTOS</span><span>Arduino IDE</span><span>SolidWorks</span><span>3D-Printing</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Yulia751/M.S.A.S/tree/main" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="content-section">
+             <div class="container observe-me connect-container">
+                 <h2 class="section-title">Get In Touch</h2>
+                 <p class="connect-subtitle">I'm always interested in discussing new technologies, projects, or potential collaborations. Let's connect!</p>
+                 <div class="connect-links">
+                     <a href="mailto:yisaeva2001@gmail.com" class="connect-button glass-enhanced observe-me-child">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                     <a href="https://www.linkedin.com/in/yulia-v-isaeva/" target="_blank" rel="noopener noreferrer" class="connect-button glass-enhanced observe-me-child" style="animation-delay: 0.1s;">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                     <a href="https://github.com/Yulia751" target="_blank" rel="noopener noreferrer" class="connect-button glass-enhanced observe-me-child" style="animation-delay: 0.2s;">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                 </div>
+             </div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Yulia</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
